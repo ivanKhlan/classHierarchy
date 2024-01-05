@@ -10,6 +10,12 @@ public class Shape {
 
     }
 
+    static class ShapeNamePrinter {
+        public static String printShapeName(Shape shape) {
+            return "Shape name: " + shape.getName();
+        }
+    }
+
     public void drawShape() {
         //drawing...
     }

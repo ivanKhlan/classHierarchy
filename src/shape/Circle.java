@@ -1,6 +1,9 @@
 package shape;
 
-public class Circle extends Shape {
+import Border.Borderable;
+
+
+public class Circle extends Shape implements Borderable {
 
     private String nameShape;
     private double radiusCircle;
@@ -12,13 +15,27 @@ public class Circle extends Shape {
 
     }
 
+
     @Override
     public void drawShape() {
         //drawing...
     }
 
+
+
+
     @Override
     public String getName() {
         return nameShape;
+    }
+
+    @Override
+    public double getBorderWidth() {
+        return 0;
+    }
+
+    @Override
+    public double getBorderHeight() {
+        return 0;
     }
 }
