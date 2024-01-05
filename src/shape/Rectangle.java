@@ -1,6 +1,6 @@
 package shape;
 
-import Border.Borderable;
+import border.Borderable;
 
 public class Rectangle extends Shape implements Borderable {
     private double sideA;

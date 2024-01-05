@@ -1,9 +1,6 @@
 package shape;
 
-import Border.Borderable;
-import scale.ScalableShape;
-
-
+import border.Borderable;
 
 
 public class Rhombus extends Shape implements Borderable {

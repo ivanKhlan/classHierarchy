@@ -8,10 +8,10 @@ public class Test {
         Shape rectangle = new Rectangle(10, 10 ,5,5,"rectangle");
         Shape point = new Point(5,5,"point");
 
-        System.out.println(Shape.ShapeNamePrinter.printShapeName(circle));
-        System.out.println(Shape.ShapeNamePrinter.printShapeName(rhombus));
-        System.out.println(Shape.ShapeNamePrinter.printShapeName(triangle));
-        System.out.println(Shape.ShapeNamePrinter.printShapeName(rectangle));
-        System.out.println(Shape.ShapeNamePrinter.printShapeName(point));
+        System.out.println(ShapeNamePrinter.printShapeName(circle));
+        System.out.println(ShapeNamePrinter.printShapeName(rhombus));
+        System.out.println(ShapeNamePrinter.printShapeName(triangle));
+        System.out.println(ShapeNamePrinter.printShapeName(rectangle));
+        System.out.println(ShapeNamePrinter.printShapeName(point));
     }
 }

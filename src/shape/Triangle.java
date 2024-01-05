@@ -1,6 +1,6 @@
 package shape;
 
-import Border.Borderable;
+import border.Borderable;
 
 
 public class Triangle extends Shape implements Borderable {

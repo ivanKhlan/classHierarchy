@@ -1,6 +1,6 @@
 package shape;
 
-import Border.Borderable;
+import border.Borderable;
 
 
 public class Circle extends Shape implements Borderable {
